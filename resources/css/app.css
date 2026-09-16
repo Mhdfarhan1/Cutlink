@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@source '../views/**/*.blade.php';
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* Tema Putih & Biru Bersih PIK-R REQUEST */
+    --color-brand-blue: #2563eb;
+    --color-brand-blue-dark: #1d4ed8;
+    --color-brand-blue-deep: #1e3a8a;
+    --color-brand-sky: #0284c7;
+    --color-brand-sky-light: #e0f2fe;
+    --color-brand-bg: #f8fafc;
+    --color-brand-surface: #ffffff;
+}
+
+[x-cloak] {
+    display: none !important;
+}
